@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 1</title>
+    <style>
+        .card{
+            width: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.199);
+            border-radius: 5px;
+            transition: 0,3s;
+        }
+        img{
+            border-radius: 5px 5px 0 0;
+            transition: 0,3s;
+        }
+        .container{
+            padding: 2px 16px;
+        }
+        h4{
+            display: inline-block;
+        }
+        p,h4{
+            margin: 7px 0;
+        }
+        .heart{
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .heart:hover{
+            color: red;
+        }
+        .card:hover{
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.499);
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="image/teh hijau.jpg" style="width: 100%;">
+        <div class="container">
+            <h4 style="width: 245px;">Matcha Hijau</h4>
+            <h4 class="heart">&#10084</h4>
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit amet distinctio cumque facilis totam ipsa quisquam libero ducimus dicta dolorum temporibus quis architecto, explicabo doloribus sint necessitatibus assumenda suscipit laborum!</p>
+        </div>
+    </div>
+</body>
+</html>
